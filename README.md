@@ -70,3 +70,12 @@ Ha = There is a difference in the number of 5 star reviews between vine reviews 
 This can be followed up with a one sided T test using a greater than and then a  less than criteria to focus in on any bias and its direction. A different, more specific hyposthesis would be needed here.
 
 Additonally, a comparison of analysis agianst different vine reviews (different products) is warrented as bias could exist for some but not others.
+
+## Deliverable One
+Below are images that show pgadmin with the loaded tables coming from AWS RDS.
+![](imgs/customers_table.png)
+![](imgs/products_table.png)
+
+![](imgs/review_id_table.png)
+![](imgs/vine_table.png)
+
