@@ -67,7 +67,13 @@ For follow on analysis I recommend a statistical approach. After verifying the d
 H0 = there is no differences in the number of 5 star reviews between vine reviews and non-vine reviews.
 Ha = There is a difference in the number of 5 star reviews between vine reviews and non-vine reviews.
 
-This can be followed up with a one sided T test using a greater than and then a  less than criteria to focus in on any bias and its direction. A different, more specific hyposthesis would be needed here.
+I created a pandas data frame and brought that into RStudio. There, I conducted a T test between the counts of 5 star vine vs non vine total votes. Here are the results, Figure 13.
+![](imgs/T_test.png)
+Figure 13.
+
+One can see by the difference in the means that they are not the same. Given the above hypothesis and the p-value, we reject the null value and conclude there is a difference between the means of the vine vs non vine vote counts.
+
+This can be followed up with a one sided T test using a greater than and then a  less than criteria to focus in on any bias and its direction. The Ha side of the hypothesis will need to change.
 
 Additonally, a comparison of analysis agianst different vine reviews (different products) is warrented as bias could exist for some but not others.
 
